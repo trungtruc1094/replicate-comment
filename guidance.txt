@@ -1,0 +1,6 @@
+Open chrome debug on windows 10
+1 - Open Powershell admin
+2 - Navigate to project folder
+3 - Launch chrome by running below command
+& "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\Users\trung\AppData\Local\Google\Chrome\User Data\Profile 32"
+4 - Run command python main.py (If not install dependencies run - pip install -r requirements.txt)
